@@ -1,0 +1,22 @@
+{
+  "name": "video_cutter",
+  "version": "1.0.0",
+  "description": "React and Electron based video cutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharunspi/Video_cutter.git"
+  },
+  "author": "kksharun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharunspi/Video_cutter/issues"
+  },
+  "homepage": "https://github.com/sharunspi/Video_cutter#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
