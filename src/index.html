@@ -7,8 +7,23 @@
     <link rel="stylesheet" href="../node_modules/@material-u">
 </head>
 <body>
-    <div>Video player</div> 
-    <video src=""></video>
+    <header>  
+        <h1>Video player </h1>
+    </header>
+    <form >
+        <div class="inputgroup">
+            <div class="inputItem">
+                <input type="file" onchange="videoAdded()" accept="*.mp4">
+            </div>
+            <div class="inputSelectDisplay">
+            </div>
+        </div>
+    </form>
+   <div class="videoArea">
+       <div class="videoSection">
+        <video src="" controls></video>
+       </div>
+   </div>
     <button onclick="startCut()">Cut start</button>
     <button>Cut end</button>
 
